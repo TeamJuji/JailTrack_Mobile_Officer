@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">JailTrack</string>
+    <string name="your_account_has_been_processed_kindly_wait_for_the_admin_approval">Your Account has been processed kindly wait for the admin approval</string>
 </resources>

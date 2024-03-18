@@ -12,6 +12,19 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.JailTrack"
         tools:targetApi="31">
+
+        <activity
+            android:name=".AccountProcess"
+            android:exported="false" />
+        <activity
+            android:name=".AddFaceData"
+            android:exported="false" />
+        <activity
+            android:name=".StartAddFaceData"
+            android:exported="false" />
+        <activity
+            android:name=".DoneAddFacialData"
+            android:exported="false" />
         <activity
             android:name=".RegisterActivity"
             android:exported="false" />
