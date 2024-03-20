@@ -12,7 +12,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.JailTrack"
         tools:targetApi="31">
-
+        <activity
+            android:name=".FaceRecognitionAttendance"
+            android:exported="false" />
+        <activity
+            android:name=".ViewSchedule"
+            android:exported="false" />
+        <activity
+            android:name=".Notifications"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
         <activity
             android:name=".AccountProcess"
             android:exported="false" />
@@ -38,7 +49,7 @@
             android:name=".ForgotPasswordActivity"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".MainDashboard"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#000000"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal"
+        android:layout_alignParentTop="true"
+        android:background="@color/grey">
+
+        <ImageView
+            android:id="@+id/jailtrackLogo"
+            android:layout_width="71dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:src="@drawable/jailtrack_logo" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="JailTrack"
+            android:textSize="50sp"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:fontFamily="monospace"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="220dp"
+        android:gravity="center">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="160dp"
+            android:layout_height="190dp"
+            app:cardCornerRadius="20dp"
+            android:background="@color/purple_700"/>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="160dp"
+            android:layout_height="190dp"
+            app:cardCornerRadius="20dp"
+            android:layout_marginLeft="20dp"
+            android:background="@color/dark_red"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24sp"
+        android:layout_marginTop="430dp"
+        android:layout_marginEnd="30dp"
+        android:gravity="center">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="160dp"
+            android:layout_height="190dp"
+            app:cardCornerRadius="20dp"
+            android:layout_marginLeft="40dp"
+            android:background="@color/brown"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/navigationBar"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:background="@color/grey">
+
+        <ImageView
+            android:id="@+id/main_dashboard_page"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/navigation_homepage"
+            android:scaleType="fitCenter"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            />
+
+        <ImageView
+            android:id="@+id/notification_page"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/navigation_notification"
+            android:scaleType="fitCenter"
+            android:layout_marginRight="10dp"/>
+
+        <ImageView
+            android:id="@+id/schedule_page"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/navigation_schedule"
+            android:scaleType="fitCenter"
+            android:layout_marginRight="10dp"/>
+
+        <ImageView
+            android:id="@+id/facerecog_page"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/navigation_face_recog"
+            android:scaleType="fitCenter"
+            android:layout_marginRight="10dp"/>
+
+        <ImageView
+            android:id="@+id/attendance_history_page"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/navigation_attendace_history"
+            android:scaleType="fitCenter"
+            android:layout_marginRight="10dp"/>
+
+        <ImageView
+            android:id="@+id/notification_request_page"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/navigation_notification_request"
+            android:scaleType="fitCenter"
+            android:layout_marginRight="10dp"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
