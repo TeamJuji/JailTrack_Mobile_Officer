@@ -70,6 +70,7 @@
                                 android:orientation="horizontal">
 
                                 <EditText
+                                    android:id="@+id/full_name_edit_text"
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
                                     android:background="@null"
@@ -123,6 +124,7 @@
                                 android:orientation="horizontal">
 
                                 <EditText
+                                    android:id="@+id/email_address_edit_text"
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
                                     android:layout_marginStart="7dp"
@@ -154,11 +156,11 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
+                            android:layout_marginStart="20dp"
                             android:text="Phone Number"
-                            android:textStyle="bold"
-                            android:textSize="15sp"
                             android:textColor="@color/black"
-                            android:layout_marginStart="20dp"/>
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
 
                         <androidx.cardview.widget.CardView
                             android:layout_width="match_parent"
@@ -181,14 +183,13 @@
                                     android:orientation="horizontal">
 
                                     <EditText
+                                        android:id="@+id/phone_number_edit_text"
                                         android:layout_width="match_parent"
                                         android:layout_height="match_parent"
-                                        android:background="@null"
                                         android:layout_marginStart="7dp"
                                         android:layout_marginEnd="7dp"
-                                        android:inputType="textEmailAddress"/>
-
-
+                                        android:background="@null"
+                                        android:inputType="textEmailAddress" />
 
                                 </LinearLayout>
 
@@ -208,11 +209,11 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Phone Number"
-                            android:textStyle="bold"
-                            android:textSize="15sp"
+                            android:layout_marginStart="20dp"
+                            android:text="Badge Number"
                             android:textColor="@color/black"
-                            android:layout_marginStart="20dp"/>
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
 
                         <androidx.cardview.widget.CardView
                             android:layout_width="match_parent"
@@ -235,15 +236,13 @@
                                     android:orientation="horizontal">
 
                                     <EditText
+                                        android:id="@+id/badge_number_edit_text"
                                         android:layout_width="match_parent"
                                         android:layout_height="match_parent"
                                         android:background="@null"
                                         android:layout_marginStart="7dp"
                                         android:layout_marginEnd="7dp"
                                         android:inputType="textEmailAddress"/>
-
-
-
                                 </LinearLayout>
 
                             </androidx.cardview.widget.CardView>
@@ -296,6 +295,7 @@
                                     android:orientation="horizontal">
 
                                     <EditText
+                                        android:id="@+id/rank_position_edit_text"
                                         android:layout_width="match_parent"
                                         android:layout_height="match_parent"
                                         android:layout_marginStart="7dp"
@@ -351,6 +351,7 @@
                                 android:orientation="horizontal">
 
                                 <EditText
+                                    android:id="@+id/address_edit_text"
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
                                     android:layout_marginStart="7dp"
@@ -404,6 +405,7 @@
                                 android:orientation="horizontal">
 
                                 <EditText
+                                    android:id="@+id/password_edit_text"
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
                                     android:background="@null"
@@ -457,6 +459,7 @@
                                 android:orientation="horizontal">
 
                                 <EditText
+                                    android:id="@+id/confirm_password_edit_text"
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
                                     android:layout_marginStart="7dp"
@@ -509,6 +512,7 @@
                                 android:orientation="horizontal">
 
                                 <EditText
+                                    android:id="@+id/jail_facility_edit_text"
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
                                     android:background="@null"
@@ -544,11 +548,11 @@
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
+                            android:gravity="center"
                             android:text="Register"
                             android:textColor="@color/white"
-                            android:gravity="center"
-                            android:textStyle="bold"
-                            android:textSize="16sp"/>
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
 
                     </androidx.cardview.widget.CardView>
 

@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "644638155838",
+    "firebase_url": "https://jailtrackapp-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "jailtrackapp",
+    "storage_bucket": "jailtrackapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:644638155838:android:8953cb03bfb1f9c1a01d6f",
+        "android_client_info": {
+          "package_name": "com.example.jailtrack"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_MfKcP_Elkye9vZgFQhtXSJxwEQMoUJc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

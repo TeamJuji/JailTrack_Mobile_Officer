@@ -13,6 +13,18 @@
         android:theme="@style/Theme.JailTrack"
         tools:targetApi="31">
         <activity
+            android:name=".ChangeShiftActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EscortTeamActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RequestNotification"
+            android:exported="false" />
+        <activity
+            android:name=".AttendanceHistory"
+            android:exported="false" />
+        <activity
             android:name=".FaceRecognitionAttendance"
             android:exported="false" />
         <activity
@@ -22,7 +34,7 @@
             android:name=".Notifications"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".MainDashboard"
             android:exported="false" />
         <activity
             android:name=".AccountProcess"
@@ -49,7 +61,7 @@
             android:name=".ForgotPasswordActivity"
             android:exported="false" />
         <activity
-            android:name=".MainDashboard"
+            android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

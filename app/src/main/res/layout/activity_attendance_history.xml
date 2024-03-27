@@ -1,0 +1,1019 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/jailtrack_background_img"
+    tools:context=".AttendanceHistory">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            app:cardCornerRadius="20dp">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@drawable/attendance_history_label" />
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@drawable/attendance_history_label" />
+
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:stretchColumns="*">
+
+                    <!-- Table header -->
+                    <TableRow>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Date"
+                            android:textStyle="bold"
+                            android:textSize="15sp"
+                            android:textColor="@color/black"
+                            android:layout_marginStart="10dp"
+                            android:gravity="center"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Designation"
+                            android:textStyle="bold"
+                            android:textSize="15sp"
+                            android:textColor="@color/black"
+                            android:layout_marginStart="1dp"
+                            android:gravity="center"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Time In"
+                            android:textStyle="bold"
+                            android:textSize="15sp"
+                            android:textColor="@color/black"
+                            android:layout_marginStart="1dp"
+                            android:gravity="center"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Time Out"
+                            android:textStyle="bold"
+                            android:textSize="15sp"
+                            android:textColor="@color/black"
+                            android:layout_marginStart="1dp"
+                            android:gravity="center"/>
+                    </TableRow>
+
+                    <!-- Table data -->
+                    <TableRow>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="14 Feb 2019"
+                            android:textSize="15sp"
+                            android:textColor="@color/black"
+                            android:layout_marginStart="10dp"
+                            android:gravity="center"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Office"
+                            android:textSize="15sp"
+                            android:textColor="@color/black"
+                            android:layout_marginStart="1dp"
+                            android:gravity="center"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="9:40 am"
+                            android:textSize="15sp"
+                            android:textColor="@color/black"
+                            android:layout_marginStart="1dp"
+                            android:gravity="center"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="6:30 pm"
+                            android:textSize="15sp"
+                            android:textColor="@color/black"
+                            android:layout_marginStart="1dp"
+                            android:gravity="center"/>
+                    </TableRow>
+
+                    <TableRow>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="14 Feb 2019"
+                            android:textSize="15sp"
+                            android:textColor="@color/black"
+                            android:layout_marginStart="10dp"
+                            android:gravity="center"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Office"
+                            android:textSize="15sp"
+                            android:textColor="@color/black"
+                            android:layout_marginStart="1dp"
+                            android:gravity="center"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="9:40 am"
+                            android:textSize="15sp"
+                            android:textColor="@color/black"
+                            android:layout_marginStart="1dp"
+                            android:gravity="center"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="6:30 pm"
+                            android:textSize="15sp"
+                            android:textColor="@color/black"
+                            android:layout_marginStart="1dp"
+                            android:gravity="center"/>
+                    </TableRow>
+
+                    <TableRow>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="14 Feb 2019"
+                            android:textSize="15sp"
+                            android:textColor="@color/black"
+                            android:layout_marginStart="10dp"
+                            android:gravity="center"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Office"
+                            android:textSize="15sp"
+                            android:textColor="@color/black"
+                            android:layout_marginStart="1dp"
+                            android:gravity="center"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="9:40 am"
+                            android:textSize="15sp"
+                            android:textColor="@color/black"
+                            android:layout_marginStart="1dp"
+                            android:gravity="center"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="6:30 pm"
+                            android:textSize="15sp"
+                            android:textColor="@color/black"
+                            android:layout_marginStart="1dp"
+                            android:gravity="center"/>
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="14 Feb 2019"
+                            android:textSize="15sp"
+                            android:textColor="@color/black"
+                            android:layout_marginStart="10dp"
+                            android:gravity="center"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Office"
+                            android:textSize="15sp"
+                            android:textColor="@color/black"
+                            android:layout_marginStart="1dp"
+                            android:gravity="center"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="9:40 am"
+                            android:textSize="15sp"
+                            android:textColor="@color/black"
+                            android:layout_marginStart="1dp"
+                            android:gravity="center"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="6:30 pm"
+                            android:textSize="15sp"
+                            android:textColor="@color/black"
+                            android:layout_marginStart="1dp"
+                            android:gravity="center"/>
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="14 Feb 2019"
+                            android:textSize="15sp"
+                            android:textColor="@color/black"
+                            android:layout_marginStart="10dp"
+                            android:gravity="center"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Office"
+                            android:textSize="15sp"
+                            android:textColor="@color/black"
+                            android:layout_marginStart="1dp"
+                            android:gravity="center"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="9:40 am"
+                            android:textSize="15sp"
+                            android:textColor="@color/black"
+                            android:layout_marginStart="1dp"
+                            android:gravity="center"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="6:30 pm"
+                            android:textSize="15sp"
+                            android:textColor="@color/black"
+                            android:layout_marginStart="1dp"
+                            android:gravity="center"/>
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="14 Feb 2019"
+                            android:textSize="15sp"
+                            android:textColor="@color/black"
+                            android:layout_marginStart="10dp"
+                            android:gravity="center"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Office"
+                            android:textSize="15sp"
+                            android:textColor="@color/black"
+                            android:layout_marginStart="1dp"
+                            android:gravity="center"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="9:40 am"
+                            android:textSize="15sp"
+                            android:textColor="@color/black"
+                            android:layout_marginStart="1dp"
+                            android:gravity="center"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="6:30 pm"
+                            android:textSize="15sp"
+                            android:textColor="@color/black"
+                            android:layout_marginStart="1dp"
+                            android:gravity="center"/>
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="14 Feb 2019"
+                            android:textSize="15sp"
+                            android:textColor="@color/black"
+                            android:layout_marginStart="10dp"
+                            android:gravity="center"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Office"
+                            android:textSize="15sp"
+                            android:textColor="@color/black"
+                            android:layout_marginStart="1dp"
+                            android:gravity="center"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="9:40 am"
+                            android:textSize="15sp"
+                            android:textColor="@color/black"
+                            android:layout_marginStart="1dp"
+                            android:gravity="center"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="6:30 pm"
+                            android:textSize="15sp"
+                            android:textColor="@color/black"
+                            android:layout_marginStart="1dp"
+                            android:gravity="center"/>
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="14 Feb 2019"
+                            android:textSize="15sp"
+                            android:textColor="@color/black"
+                            android:layout_marginStart="10dp"
+                            android:gravity="center"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Office"
+                            android:textSize="15sp"
+                            android:textColor="@color/black"
+                            android:layout_marginStart="1dp"
+                            android:gravity="center"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="9:40 am"
+                            android:textSize="15sp"
+                            android:textColor="@color/black"
+                            android:layout_marginStart="1dp"
+                            android:gravity="center"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="6:30 pm"
+                            android:textSize="15sp"
+                            android:textColor="@color/black"
+                            android:layout_marginStart="1dp"
+                            android:gravity="center"/>
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="14 Feb 2019"
+                            android:textSize="15sp"
+                            android:textColor="@color/black"
+                            android:layout_marginStart="10dp"
+                            android:gravity="center"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Office"
+                            android:textSize="15sp"
+                            android:textColor="@color/black"
+                            android:layout_marginStart="1dp"
+                            android:gravity="center"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="9:40 am"
+                            android:textSize="15sp"
+                            android:textColor="@color/black"
+                            android:layout_marginStart="1dp"
+                            android:gravity="center"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="6:30 pm"
+                            android:textSize="15sp"
+                            android:textColor="@color/black"
+                            android:layout_marginStart="1dp"
+                            android:gravity="center"/>
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="14 Feb 2019"
+                            android:textSize="15sp"
+                            android:textColor="@color/black"
+                            android:layout_marginStart="10dp"
+                            android:gravity="center"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Office"
+                            android:textSize="15sp"
+                            android:textColor="@color/black"
+                            android:layout_marginStart="1dp"
+                            android:gravity="center"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="9:40 am"
+                            android:textSize="15sp"
+                            android:textColor="@color/black"
+                            android:layout_marginStart="1dp"
+                            android:gravity="center"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="6:30 pm"
+                            android:textSize="15sp"
+                            android:textColor="@color/black"
+                            android:layout_marginStart="1dp"
+                            android:gravity="center"/>
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="14 Feb 2019"
+                            android:textSize="15sp"
+                            android:textColor="@color/black"
+                            android:layout_marginStart="10dp"
+                            android:gravity="center"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Office"
+                            android:textSize="15sp"
+                            android:textColor="@color/black"
+                            android:layout_marginStart="1dp"
+                            android:gravity="center"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="9:40 am"
+                            android:textSize="15sp"
+                            android:textColor="@color/black"
+                            android:layout_marginStart="1dp"
+                            android:gravity="center"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="6:30 pm"
+                            android:textSize="15sp"
+                            android:textColor="@color/black"
+                            android:layout_marginStart="1dp"
+                            android:gravity="center"/>
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="14 Feb 2019"
+                            android:textSize="15sp"
+                            android:textColor="@color/black"
+                            android:layout_marginStart="10dp"
+                            android:gravity="center"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Office"
+                            android:textSize="15sp"
+                            android:textColor="@color/black"
+                            android:layout_marginStart="1dp"
+                            android:gravity="center"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="9:40 am"
+                            android:textSize="15sp"
+                            android:textColor="@color/black"
+                            android:layout_marginStart="1dp"
+                            android:gravity="center"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="6:30 pm"
+                            android:textSize="15sp"
+                            android:textColor="@color/black"
+                            android:layout_marginStart="1dp"
+                            android:gravity="center"/>
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="14 Feb 2019"
+                            android:textSize="15sp"
+                            android:textColor="@color/black"
+                            android:layout_marginStart="10dp"
+                            android:gravity="center"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Office"
+                            android:textSize="15sp"
+                            android:textColor="@color/black"
+                            android:layout_marginStart="1dp"
+                            android:gravity="center"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="9:40 am"
+                            android:textSize="15sp"
+                            android:textColor="@color/black"
+                            android:layout_marginStart="1dp"
+                            android:gravity="center"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="6:30 pm"
+                            android:textSize="15sp"
+                            android:textColor="@color/black"
+                            android:layout_marginStart="1dp"
+                            android:gravity="center"/>
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="14 Feb 2019"
+                            android:textSize="15sp"
+                            android:textColor="@color/black"
+                            android:layout_marginStart="10dp"
+                            android:gravity="center"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Office"
+                            android:textSize="15sp"
+                            android:textColor="@color/black"
+                            android:layout_marginStart="1dp"
+                            android:gravity="center"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="9:40 am"
+                            android:textSize="15sp"
+                            android:textColor="@color/black"
+                            android:layout_marginStart="1dp"
+                            android:gravity="center"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="6:30 pm"
+                            android:textSize="15sp"
+                            android:textColor="@color/black"
+                            android:layout_marginStart="1dp"
+                            android:gravity="center"/>
+                    </TableRow>
+                    <TableRow>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="14 Feb 2019"
+                            android:textSize="15sp"
+                            android:textColor="@color/black"
+                            android:layout_marginStart="10dp"
+                            android:gravity="center"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Office"
+                            android:textSize="15sp"
+                            android:textColor="@color/black"
+                            android:layout_marginStart="1dp"
+                            android:gravity="center"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="9:40 am"
+                            android:textSize="15sp"
+                            android:textColor="@color/black"
+                            android:layout_marginStart="1dp"
+                            android:gravity="center"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="6:30 pm"
+                            android:textSize="15sp"
+                            android:textColor="@color/black"
+                            android:layout_marginStart="1dp"
+                            android:gravity="center"/>
+                    </TableRow>
+
+                    <TableRow>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="14 Feb 2019"
+                            android:textSize="15sp"
+                            android:textColor="@color/black"
+                            android:layout_marginStart="10dp"
+                            android:gravity="center"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Office"
+                            android:textSize="15sp"
+                            android:textColor="@color/black"
+                            android:layout_marginStart="1dp"
+                            android:gravity="center"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="9:40 am"
+                            android:textSize="15sp"
+                            android:textColor="@color/black"
+                            android:layout_marginStart="1dp"
+                            android:gravity="center"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="6:30 pm"
+                            android:textSize="15sp"
+                            android:textColor="@color/black"
+                            android:layout_marginStart="1dp"
+                            android:gravity="center"/>
+                    </TableRow>
+
+                    <TableRow>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="14 Feb 2019"
+                            android:textSize="15sp"
+                            android:textColor="@color/black"
+                            android:layout_marginStart="10dp"
+                            android:gravity="center"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Office"
+                            android:textSize="15sp"
+                            android:textColor="@color/black"
+                            android:layout_marginStart="1dp"
+                            android:gravity="center"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="9:40 am"
+                            android:textSize="15sp"
+                            android:textColor="@color/black"
+                            android:layout_marginStart="1dp"
+                            android:gravity="center"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="6:30 pm"
+                            android:textSize="15sp"
+                            android:textColor="@color/black"
+                            android:layout_marginStart="1dp"
+                            android:gravity="center"/>
+                    </TableRow>
+
+                    <TableRow>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="14 Feb 2019"
+                            android:textSize="15sp"
+                            android:textColor="@color/black"
+                            android:layout_marginStart="10dp"
+                            android:gravity="center"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Office"
+                            android:textSize="15sp"
+                            android:textColor="@color/black"
+                            android:layout_marginStart="1dp"
+                            android:gravity="center"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="9:40 am"
+                            android:textSize="15sp"
+                            android:textColor="@color/black"
+                            android:layout_marginStart="1dp"
+                            android:gravity="center"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="6:30 pm"
+                            android:textSize="15sp"
+                            android:textColor="@color/black"
+                            android:layout_marginStart="1dp"
+                            android:gravity="center"/>
+                    </TableRow>
+
+                    <TableRow>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="14 Feb 2019"
+                            android:textSize="15sp"
+                            android:textColor="@color/black"
+                            android:layout_marginStart="10dp"
+                            android:gravity="center"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Office"
+                            android:textSize="15sp"
+                            android:textColor="@color/black"
+                            android:layout_marginStart="1dp"
+                            android:gravity="center"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="9:40 am"
+                            android:textSize="15sp"
+                            android:textColor="@color/black"
+                            android:layout_marginStart="1dp"
+                            android:gravity="center"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="6:30 pm"
+                            android:textSize="15sp"
+                            android:textColor="@color/black"
+                            android:layout_marginStart="1dp"
+                            android:gravity="center"/>
+                    </TableRow>
+
+
+
+
+                </TableLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:orientation="horizontal"
+                        android:gravity="center_vertical">
+
+                        <ImageView
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:src="@drawable/previous_arrow_label"
+                            android:layout_marginStart="5dp"
+                            android:layout_marginEnd="5dp"
+                            android:contentDescription="@null" />
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_marginEnd="5dp"
+                            android:backgroundTint="@color/black"
+                            app:cardCornerRadius="10dp">
+
+                            <androidx.cardview.widget.CardView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_margin="1dp"
+                                app:cardCornerRadius="10dp">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:text="1"
+                                    android:textColor="@color/black"
+                                    android:textSize="12sp"
+                                    android:textStyle="bold" />
+
+                            </androidx.cardview.widget.CardView>
+
+                        </androidx.cardview.widget.CardView>
+
+                    </LinearLayout>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_marginEnd="5dp"
+                        android:backgroundTint="@color/black"
+                        app:cardCornerRadius="10dp">
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="1dp"
+                            app:cardCornerRadius="10dp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:text="2"
+                                android:textColor="@color/black"
+                                android:textSize="12sp"
+                                android:textStyle="bold" />
+
+                        </androidx.cardview.widget.CardView>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_marginEnd="5dp"
+                        android:backgroundTint="@color/black"
+                        app:cardCornerRadius="10dp">
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="1dp"
+                            app:cardCornerRadius="10dp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:text="3"
+                                android:textColor="@color/black"
+                                android:textSize="12sp"
+                                android:textStyle="bold" />
+
+                        </androidx.cardview.widget.CardView>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:src="@drawable/next_arrow_label"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginEnd="5dp"
+                        android:contentDescription="@null" />
+
+                </LinearLayout>
+
+
+
+
+
+
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="50dp"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
